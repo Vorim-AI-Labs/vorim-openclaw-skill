@@ -17,20 +17,31 @@ Vorim AI gives every AI agent its own Ed25519 keypair, time-bounded scoped permi
 
 If you've ever asked "which agent did this?" after something went wrong — Vorim is what answers that question, instantly, with cryptographic proof.
 
+## Repo Layout
+
+```
+vorim-openclaw-skill/
+├── README.md
+├── LICENSE
+└── skills/
+    └── vorim/
+        └── SKILL.md   ← the skill manifest
+```
+
 ## Install
 
 ### Option 1: Copy the skill
 
-Copy `SKILL.md` to your OpenClaw skills directory:
+Copy `skills/vorim/SKILL.md` to your OpenClaw skills directory:
 
 ```bash
 # Global (all workspaces)
 mkdir -p ~/.openclaw/skills/vorim
-cp SKILL.md ~/.openclaw/skills/vorim/
+cp skills/vorim/SKILL.md ~/.openclaw/skills/vorim/
 
 # Or workspace-specific
 mkdir -p ./skills/vorim
-cp SKILL.md ./skills/vorim/
+cp skills/vorim/SKILL.md ./skills/vorim/
 ```
 
 ### Option 2: Add the MCP server
