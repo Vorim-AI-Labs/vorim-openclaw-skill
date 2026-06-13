@@ -15,7 +15,7 @@ metadata:
       - audit
       - permissions
     homepage: https://vorim.ai
-    repository: https://github.com/Kzino/vorim-openclaw-skill
+    repository: https://github.com/Vorim-AI-Labs/vorim-openclaw-skill
 ---
 
 # Vorim AI — Agent Identity & Trust

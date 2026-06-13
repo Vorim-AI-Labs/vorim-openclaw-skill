@@ -105,18 +105,18 @@ ClawHub's automated security scanner flags this skill as "high-impact" because i
 
 Here's the honest breakdown of why those declarations exist:
 
-- `VORIM_API_KEY` — your Vorim API key, used only to authenticate with `https://api.vorim.ai`. The skill never reads, copies, or transmits any other environment variable. The full source is open at [github.com/Kzino/vorim-openclaw-skill](https://github.com/Kzino/vorim-openclaw-skill) and the upstream MCP server at [github.com/Kzino/vorim-mcp-server](https://github.com/Kzino/vorim-mcp-server).
+- `VORIM_API_KEY` — your Vorim API key, used only to authenticate with `https://api.vorim.ai`. The skill never reads, copies, or transmits any other environment variable. The full source is open at [github.com/Vorim-AI-Labs/vorim-openclaw-skill](https://github.com/Vorim-AI-Labs/vorim-openclaw-skill) and the upstream MCP server at [github.com/Vorim-AI-Labs/vorim-mcp-server](https://github.com/Vorim-AI-Labs/vorim-mcp-server).
 - `mcporter` — used to run the Vorim MCP server (`@vorim/mcp-server` on npm). Nothing else.
 
-The skill is MIT-0 licensed and every file in the repo is public. If you'd like to verify before installing, read the [SKILL.md](skills/vorim/SKILL.md), the [MCP server source](https://github.com/Kzino/vorim-mcp-server/tree/main/src), and the [VAIP protocol spec](https://github.com/Kzino/vorim-protocol).
+The skill is MIT-0 licensed and every file in the repo is public. If you'd like to verify before installing, read the [SKILL.md](skills/vorim/SKILL.md), the [MCP server source](https://github.com/Vorim-AI-Labs/vorim-mcp-server/tree/main/src), and the [VAIP protocol spec](https://github.com/Vorim-AI-Labs/vorim-protocol).
 
 If you spot anything wrong — security, accuracy, or otherwise — please open an issue or email [kwame@vorim.ai](mailto:kwame@vorim.ai). Vorim is built by a solo founder; honest feedback is taken seriously.
 
 ## Links
 
 - **Platform:** [vorim.ai](https://vorim.ai)
-- **MCP Server:** [github.com/Kzino/vorim-mcp-server](https://github.com/Kzino/vorim-mcp-server)
-- **Protocol Spec (VAIP):** [github.com/Kzino/vorim-protocol](https://github.com/Kzino/vorim-protocol)
+- **MCP Server:** [github.com/Vorim-AI-Labs/vorim-mcp-server](https://github.com/Vorim-AI-Labs/vorim-mcp-server)
+- **Protocol Spec (VAIP):** [github.com/Vorim-AI-Labs/vorim-protocol](https://github.com/Vorim-AI-Labs/vorim-protocol)
 - **TypeScript SDK:** [@vorim/sdk on npm](https://www.npmjs.com/package/@vorim/sdk)
 - **Python SDK:** [vorim on PyPI](https://pypi.org/project/vorim/)
 - **OpenClaw:** [openclaw.ai](https://openclaw.ai)
