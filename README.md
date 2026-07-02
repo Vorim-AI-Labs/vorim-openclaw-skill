@@ -75,7 +75,7 @@ Or manually:
 3. Set `VORIM_API_KEY=agid_sk_live_...` in your environment
 4. On first run, the skill registers your OpenClaw agent automatically and saves the agent ID
 
-The free tier supports 3 agents and 10K events per month — enough for personal use and prototyping.
+The free tier supports 10 agents and 10K events per month — enough for personal use and prototyping.
 
 ## 17 MCP Tools Available
 

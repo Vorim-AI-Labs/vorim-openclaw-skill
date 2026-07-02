@@ -31,7 +31,7 @@ You have access to Vorim AI for agent identity, permissions, and audit trails. U
 VORIM_API_KEY=agid_sk_live_...
 ```
 
-The free tier includes 3 agents with full access.
+The free tier includes 10 agents with full access.
 
 ## When to Use Vorim
 
